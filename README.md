@@ -6,7 +6,7 @@ meu problema para poder explicá-lo de forma mais clara. Espero que o "brainstor
 Após ler e reler uma simples função utilizando useEffect no React eu percebi que saber de lógica e sintaxe não é o suficiente para
 se tornar um desenvolvedor independente que consegue caminhar com as próprias pernas. 
 
-Uma simples ideia de criar um cronômetro pode parecer fácil dentro dos pensamentos, porém torná-la real em código requer conhecimentos básicos de
+Uma simples ideia pode parecer fácil dentro dos pensamentos, porém torná-la real em código requer conhecimentos básicos de
 estrutura de função, e coisas que eu não sei ainda como definir, mas por enquanto chamo de algoritmos sequenciais. Por exemplo:
 
   function funcao(a, b, etc...) 
