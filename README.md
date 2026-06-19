@@ -1,7 +1,7 @@
 # logica
 
 Eu gostaria muito de montar um readme de forma didática para explicar do que esse repositório se trata com clareza. Por enquanto ainda estou tentando compreender
-meu problema para poder explicá-lo de forma mais clara. Espero que o "brainstorm" que farei abaixo seja suficiente para compreender do que este estudo se trata
+meu problema para poder explicá-lo de maneira mais clara. Espero que o "brainstorm" que farei abaixo seja suficiente para compreender do que este estudo se trata.
 
 Após ler e reler uma simples função utilizando useEffect no React eu percebi que saber de lógica e sintaxe não é o suficiente para
 se tornar um desenvolvedor independente que consegue caminhar com as próprias pernas. 
@@ -55,7 +55,7 @@ determinadas situações, como por exemplo:
   Então podemos fazer:
 
   caneta.valor * 0.05 para descobrir o valor total a se pagar pela caneta.
-  
+
   lapis.valor * 0.05 para descobrir o valor total a se pagar pelo lápis.
 
   Se caminharmos por esse caminho, teremos várias etapas para concluir a questão. Mas podemos também fazer por:
