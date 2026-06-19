@@ -10,6 +10,7 @@ Uma simples ideia pode parecer fácil dentro dos pensamentos, porém torná-la r
 estrutura de função, e coisas que eu não sei ainda como definir, mas por enquanto chamo de algoritmos sequenciais. Por exemplo:
 
   function funcao(a, b, etc...) 
+
     return // alguma manipulação com os parâmetros
 
 Aqui temos uma função que recebe a, b e quantos parâmetros forem necessários. A função deve fazer algo com os parâmetros que foram disponibilizados.
@@ -23,6 +24,7 @@ x + y = 10
 Como vamos descobrir os valores de x e de y? Precisamos de mais informações sobre eles. Supondo que:
 
 x = 3 + 2
+
 x = 5
 
 Então
@@ -30,6 +32,7 @@ Então
 5 + y = 10
 
 y = 10 - 5
+
 y = 5
 
 Para solucionar esse problema, tivemos que primeiro definir o valor de x.
@@ -52,6 +55,7 @@ determinadas situações, como por exemplo:
   Então podemos fazer:
 
   caneta.valor * 0.05 para descobrir o valor total a se pagar pela caneta.
+  
   lapis.valor * 0.05 para descobrir o valor total a se pagar pelo lápis.
 
   Se caminharmos por esse caminho, teremos várias etapas para concluir a questão. Mas podemos também fazer por:
