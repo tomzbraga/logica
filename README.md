@@ -1,15 +1,20 @@
 # logica
 
+Este repositório é apenas um "diário" no qual eu exponho meus pensamentos de maneira informal para que eu possa ler e reler, compreender meu estado atual de aprendizado
+e também responder às minhas próprias perguntas a medida que eu for evoluindo.
+
+Contém muito desabafo de alguém que queria muito aprender a programar, mas fica desapontado com o material que é entregue.
+
 Eu gostaria muito de montar um readme de forma didática para explicar do que esse repositório se trata com clareza. Por enquanto ainda estou tentando compreender
 meu problema para poder explicá-lo de maneira mais clara. Espero que o "brainstorm" que farei abaixo seja suficiente para compreender do que este estudo se trata.
 
 Após ler e reler uma simples função utilizando useEffect no React eu percebi que saber de lógica e sintaxe não é o suficiente para
-se tornar um desenvolvedor independente que consegue caminhar com as próprias pernas. 
+se tornar um desenvolvedor independente que consegue caminhar com as próprias pernas.
 
 Uma simples ideia pode parecer fácil dentro dos pensamentos, porém torná-la real em código requer conhecimentos básicos de
 estrutura de função, e coisas que eu não sei ainda como definir, mas por enquanto chamo de algoritmos sequenciais. Por exemplo:
 
-  function funcao(a, b, etc...) 
+function funcao(a, b, etc...)
 
     return // alguma manipulação com os parâmetros
 
@@ -45,52 +50,38 @@ Existem diversas maneiras de utilizar a situação acima em código
 Você pode pedir para o usuário informar o valor de x, ou de y, ou o valor que se espera como resultado final. Podemos também aplicar regras que foram definidas para
 determinadas situações, como por exemplo:
 
-  Uma caneta custa 10 reais, um lapis 5. 
-  Comprei duas canetas e um lápis. Espera-se que o resultado seja:
+Uma caneta custa 10 reais, um lapis 5.
+Comprei duas canetas e um lápis. Espera-se que o resultado seja:
 
-  10 + 10 + 5 = 25
-  
-  Porém temos uma taxa de 5% sobre o valor de cada unidade vendida
+10 + 10 + 5 = 25
 
-  Então podemos fazer:
+Porém temos uma taxa de 5% sobre o valor de cada unidade vendida
 
-  caneta.valor * 0.05 para descobrir o valor total a se pagar pela caneta.
+Então podemos fazer:
 
-  lapis.valor * 0.05 para descobrir o valor total a se pagar pelo lápis.
+caneta.valor \* 0.05 para descobrir o valor total a se pagar pela caneta.
 
-  Se caminharmos por esse caminho, teremos várias etapas para concluir a questão. Mas podemos também fazer por:
+lapis.valor \* 0.05 para descobrir o valor total a se pagar pelo lápis.
 
-  ( caneta.valor * 0.05 ) * 2 + lapis.valor * 0.05 
+Se caminharmos por esse caminho, teremos várias etapas para concluir a questão. Mas podemos também fazer por:
 
-  Esse cálculo já nos traria o resultado sem mais etapas.
+( caneta.valor _ 0.05 ) _ 2 + lapis.valor \* 0.05
 
-  Porém nós temos a quantidade de itens fixa, 2 canetas e 1 lápis, mas se comprarmos quantidades diferentes?
+Esse cálculo já nos traria o resultado sem mais etapas.
 
-  Teríamos então que trocar os valores fixos por variáveis:
+Porém nós temos a quantidade de itens fixa, 2 canetas e 1 lápis, mas se comprarmos quantidades diferentes?
 
-  (caneta.valor * 0.05) * x + (lapis.valor * 0.05) * y
+Teríamos então que trocar os valores fixos por variáveis:
 
-  Já adiantando meu conheciemnto sobre programação, estou simulando o acesso do atributo "valor" dos objetos caneta e lápis.
-  Porém a equação acima ainda não é a melhor maneira para ser escrita se imaginarmos como seria um sistema real para isso, pois estamos nos limitando apenas a compra de canetas e lápis, mas e se comprarmos também um caderno que custa 20 reais? Teríamos que acrescentar o caderno à equação?
+(caneta.valor _ 0.05) _ x + (lapis.valor _ 0.05) _ y
 
-  (caneta.valor * 0.05) * x + (lapis.valor * 0.05) * y + (caderno.valor * 0.05) * z
+Já adiantando meu conheciemnto sobre programação, estou simulando o acesso do atributo "valor" dos objetos caneta e lápis.
+Porém a equação acima ainda não é a melhor maneira para ser escrita se imaginarmos como seria um sistema real para isso, pois estamos nos limitando apenas a compra de canetas e lápis, mas e se comprarmos também um caderno que custa 20 reais? Teríamos que acrescentar o caderno à equação?
 
-  E se continuarmos adicionando itens à nossa lista de compras? Teríamos que escrever mais código? Nessa situação teríamos que criar 1 variável de quantidade comprada para cada item que decidirmos comprar. Eu ainda adiantei o pensamento em objetos para os produtos, se não, teríamos que criar variáveis para salvar os valores dos itens também.
+(caneta.valor _ 0.05) _ x + (lapis.valor _ 0.05) _ y + (caderno.valor _ 0.05) _ z
+
+E se continuarmos adicionando itens à nossa lista de compras? Teríamos que escrever mais código? Nessa situação teríamos que criar 1 variável de quantidade comprada para cada item que decidirmos comprar. Eu ainda adiantei o pensamento em objetos para os produtos, se não, teríamos que criar variáveis para salvar os valores dos itens também.
 
 Essa é apenas uma situação bem básica das milhares de situações que existem carreira de desenvolvimento. E elas podem ser bem mais complicadas que isso.
 
 É sobre isso que este estudo se trata.
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
