@@ -3,6 +3,8 @@
 Este repositório é apenas um "diário" no qual eu exponho meus pensamentos de maneira informal para que eu possa ler e reler, compreender meu estado atual de aprendizado
 e também responder às minhas próprias perguntas a medida que eu for evoluindo.
 
+Contém muito desabafo de alguém que queria muito aprender a programar, mas fica desapontado com o material que é entregue.
+
 Eu gostaria muito de montar um readme de forma didática para explicar do que esse repositório se trata com clareza. Por enquanto ainda estou tentando compreender
 meu problema para poder explicá-lo de maneira mais clara. Espero que o "brainstorm" que farei abaixo seja suficiente para compreender do que este estudo se trata.
 
